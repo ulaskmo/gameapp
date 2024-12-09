@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBDEFB">
+
+    <!-- Up -->
+    <View
+        android:id="@+id/upColor"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:background="#4CAF50"
+        android:elevation="8dp" />
+
+    <!-- Down -->
+    <View
+        android:id="@+id/downColor"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFEB3B"
+        android:elevation="8dp" />
+
+    <!-- Left -->
+    <View
+        android:id="@+id/leftColor"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="#2196F3"
+        android:elevation="8dp" />
+
+    <!-- Right -->
+    <View
+        android:id="@+id/rightColor"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="#F44336"
+        android:elevation="8dp" />
+
+    <!-- Game Instruction -->
+    <TextView
+        android:id="@+id/goTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Ready!"
+        android:textSize="38sp"
+        android:textColor="#0D47A1"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:elevation="6dp" />
+</RelativeLayout>

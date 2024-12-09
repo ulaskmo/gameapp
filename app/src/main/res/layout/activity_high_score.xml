@@ -1,0 +1,23 @@
+<!-- Layout for displaying the high scores -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title for the high scores screen -->
+    <TextView
+        android:id="@+id/highScoresTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Scores"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- ListView to show the top 5 scores -->
+    <ListView
+        android:id="@+id/highScoreList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

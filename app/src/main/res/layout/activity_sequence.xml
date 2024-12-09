@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3E5FC">
+
+    <!-- Instruction Text -->
+    <TextView
+        android:id="@+id/sequenceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch the Sequence!"
+        android:textSize="24sp"
+        android:textColor="#1E88E5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold" />
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:textSize="18sp"
+        android:backgroundTint="#0288D1"
+        android:textColor="#FFFFFF"
+        android:layout_centerInParent="true"
+        android:elevation="5dp" />
+</RelativeLayout>
